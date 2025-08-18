@@ -1,0 +1,45 @@
+name: stream_game_app
+description: "An app which helps stream, record and call."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  #  YOZILGAN NARSALAR O'CHIB KETMASIN !
+  cupertino_icons: ^1.0.8
+  # state management
+  get: ^4.7.2
+  # to make app responsive
+  flutter_screenutil: ^5.9.3
+  # for working with backend
+  dio: ^5.9.0
+  # to check internet
+  connectivity_plus: ^6.1.5
+  # to be able to use svg images and icons
+  flutter_svg: ^2.0.13
+  # to work
+  permission_handler: ^12.0.1
+  # to be able to store data to phone data(telefon xotirasi bilan ishlash)
+  shared_preferences: ^2.5.3
+  # to put logo to project( ilova uchun rasm)
+  flutter_launcher_icons: ^0.14.4
+  # to put logs and see problems
+  l: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
