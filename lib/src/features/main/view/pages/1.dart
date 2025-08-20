@@ -44,7 +44,7 @@ class _HahaState extends State<Haha> {
             Container(
               height: 100,
               width: 100,
-                   borderRadius: BorderRadius.circular(100),
+              decoration: BoxDecoration(
                   image: DecorationImage(image: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwTqEGOxarAmCTJky-hkmKiKm-1WPpgxLO-w&s"), fit: BoxFit.cover),
                   color: Colors.blue
               ),
@@ -64,12 +64,23 @@ class _HahaState extends State<Haha> {
               ),
               padding: EdgeInsets.symmetric(horizontal: 20),
               child:Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children:[
-                  Icon(Icons.videocam,size: 50.0, color: Colors.grey),
-                  Icon(Icons.mic_off,size: 50.0, color: Colors.grey),
-                  Icon(Icons.volume_up,size: 50.0,color: Colors.grey),
-                  Icon(Icons.call_outlined,size: 50.0, color: Colors.red),
+              IconButton(
+              icon :Icon(Icons.videocam,size: 50.0, color: Colors.grey),
+                    onPressed: () {
+                      Navigator.pop(context);
+                      IconButton(
+                        icon : Icon(Icons.mic_off,size: 50.0, color: Colors.grey),
+                          onPressed: () {
+                            Navigator.pop(context);
+                        IconButton(
+                          icon :  Icon(Icons.volume_up,size: 50.0,color: Colors.grey),
+                            onPressed: () {
+                              Navigator.pop(context);
+                          IconButton(
+                            icon : Icon(Icons.call_outlined,size: 50.0, color: Colors.red),
+                              onPressed: () {
+                                Navigator.pop(context);
                 ],
               ),
 
