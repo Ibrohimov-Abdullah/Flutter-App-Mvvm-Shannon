@@ -69,18 +69,26 @@ class _HahaState extends State<Haha> {
               icon :Icon(Icons.videocam,size: 50.0, color: Colors.grey),
                     onPressed: () {
                       Navigator.pop(context);
+                          },
+                       ),
                       IconButton(
                         icon : Icon(Icons.mic_off,size: 50.0, color: Colors.grey),
                           onPressed: () {
                             Navigator.pop(context);
+                                },
+                               ),
                         IconButton(
                           icon :  Icon(Icons.volume_up,size: 50.0,color: Colors.grey),
                             onPressed: () {
                               Navigator.pop(context);
+                                       },
+                                    ),
                           IconButton(
                             icon : Icon(Icons.call_outlined,size: 50.0, color: Colors.red),
                               onPressed: () {
                                 Navigator.pop(context);
+                   },
+                  ),
                 ],
               ),
 
