@@ -44,8 +44,7 @@ class _HahaState extends State<Haha> {
             Container(
               height: 100,
               width: 100,
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(100),
+                   borderRadius: BorderRadius.circular(100),
                   image: DecorationImage(image: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwTqEGOxarAmCTJky-hkmKiKm-1WPpgxLO-w&s"), fit: BoxFit.cover),
                   color: Colors.blue
               ),
