@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:stream_game_app/src/features/main/view/pages/hasanboy_oynasi.dart';
 
 import '../src/features/auth/view/pages/splash_page.dart';
 
@@ -20,7 +21,7 @@ class AppMaterialContext extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: const SplashPage(),
+      home: const MyWidget(),
     );
   }
 }
