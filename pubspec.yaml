@@ -32,6 +32,7 @@ dependencies:
   flutter_launcher_icons: ^0.14.4
   # to put logs and see problems
   l: ^5.0.1
+  image_picker: ^1.2.0
 
 dev_dependencies:
   flutter_test:
